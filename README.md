@@ -60,3 +60,10 @@ pi 内で `/reload` 後、`/emoji` を実行。
 ## 保存先
 
 `~/.pi/agent/emoji-art.txt`
+
+
+## pi update policy
+
+pi 本体のバージョン管理を mise に一本化する移行・更新・ロールバック方針は [docs/update-policy.md](docs/update-policy.md) を参照。core / extensions / models は別々に扱い、更新後の smoke test とログを必須にする。
+
+Related: [Issue #5](https://github.com/bonsai/pi-tui/issues/5)
